@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+readme_content = """
+# **Educational Website**  
 
-## Getting Started
+### **Description**
+This website is fully responsive designed using Next.js, Tailwind CSS, and ShadCN UI components. Inspired by a Figma design, this project features a clean and professional user interface with seamless navigation. It includes multiple sections showcasing courses, achievements, the team, and testimonials, all tailored to provide an exceptional user experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Features**
+- **Responsive Design:** Fully optimized for desktop and mobile devices.  
+- **Interactive UI:** Buttons and elements styled using ShadCN.  
+- **Dynamic Sections:**  
+  - **Navbar:** Smooth navigation across the website.  
+  - **Hero Section:** Captivating introduction to the platform.  
+  - **Courses Sections:** Two sections highlighting courses with engaging visuals.  
+  - **Achievements Section:** Displays notable accomplishments.  
+  - **Our Team Section:** Highlights the educators and contributors.  
+  - **Testimonial Section:** Feedback from users to build trust.  
+  - **Footer Section:** Concludes the website with essential links and contact details.  
+- **Tailwind CSS Integration:** Ensures consistency and clean styling throughout the site.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## **Technologies Used**
+- **Framework:** Next.js  
+- **Styling:** Tailwind CSS, ShadCN  
+- **Design Reference:** Figma  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## **Setup Instructions**
+1. Clone the repository:  
+   git clone https://github.com/your-username/educonnect.git
+   cd educonnect
+1. Install dependencies:  
+   npm install
+1. Start the development server:  
+   npm run dev
+4. Open your browser and navigate to http://localhost:3000.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
